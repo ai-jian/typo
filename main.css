@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Estonia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap");
 html {
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -17,7 +17,7 @@ html {
   text-align: center;
   background: #f5f3ea;
   font-size: 500%;
-  font-family: "Estonia", cursive;
+  font-family: "Lora", serif;
 }
 
 .typewriter {
