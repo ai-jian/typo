@@ -1,0 +1,226 @@
+html {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: monospace;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background: #f5f3ea;
+  font-size: 150%;
+}
+
+.typewriter {
+  color: #1d1c1b;
+  font-family: monospace;
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em;
+  /* Adjust as needed */
+  position: relative;
+  -webkit-animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+          animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+#o {
+  position: absolute;
+  left: 13em;
+  top: 3em;
+}
+
+#w {
+  position: absolute;
+  left: 13em;
+  top: 6em;
+}
+
+#n {
+  position: absolute;
+  left: 13em;
+  top: 9em;
+}
+
+#period {
+  position: absolute;
+  left: 13em;
+  top: 12em;
+}
+
+/* The typing effect */
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@-webkit-keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+.sticking {
+  letter-spacing: 0px;
+  -webkit-transition: letter-spacing 1s ease-in-out;
+  transition: letter-spacing 1s ease-in-out;
+}
+
+.sticking:hover {
+  letter-spacing: -5px;
+}
+
+.groaning {
+  font-size: 1rem;
+  -webkit-transition: font-size 1s ease-in-out;
+  transition: font-size 1s ease-in-out;
+}
+
+.groaning #ggs,
+.groaning #gr,
+.groaning #go,
+.groaning #ga,
+.groaning #gn1,
+.groaning #gi,
+.groaning #gn2,
+.groaning #gge {
+  -webkit-transition: font-size 1s ease-in-out;
+  transition: font-size 1s ease-in-out;
+}
+
+.groaning:hover {
+  font-size: 1rem;
+}
+
+.groaning:hover #ggs {
+  font-size: 1em;
+}
+
+.groaning:hover #gr {
+  font-size: 2em;
+}
+
+.groaning:hover #go {
+  font-size: 3em;
+}
+
+.groaning:hover #ga {
+  font-size: 4em;
+}
+
+.groaning:hover #gn1 {
+  font-size: 5em;
+}
+
+.groaning:hover #gi {
+  font-size: 6em;
+}
+
+.groaning:hover #gn2 {
+  font-size: 7em;
+}
+
+.groaning:hover #gge {
+  font-size: 8em;
+}
+
+.reducing {
+  font-size: 1rem;
+}
+
+.reducing #rr,
+.reducing #re,
+.reducing #rd,
+.reducing #ru,
+.reducing #rc,
+.reducing #ri,
+.reducing #rn,
+.reducing #rg {
+  -webkit-transition: font-size 1s ease-in-out;
+  transition: font-size 1s ease-in-out;
+}
+
+.reducing:hover {
+  font-size: 1rem;
+}
+
+.reducing:hover #rr {
+  font-size: 1em;
+}
+
+.reducing:hover #re {
+  font-size: 0.9em;
+}
+
+.reducing:hover #rd {
+  font-size: 0.8em;
+}
+
+.reducing:hover #ru {
+  font-size: 0.7em;
+}
+
+.reducing:hover #rc {
+  font-size: 0.6rem;
+}
+
+.reducing:hover #ri {
+  font-size: 0.5rem;
+}
+
+.reducing:hover #rn {
+  font-size: 0.4rem;
+}
+
+.reducing:hover #rg {
+  font-size: 0.3rem;
+}
+
+.disappearing {
+  letter-spacing: 0px;
+  -webkit-transition: letter-spacing 1s ease-in-out;
+  transition: letter-spacing 1s ease-in-out;
+}
+
+.disappearing:hover {
+  letter-spacing: 5px;
+}
+/*# sourceMappingURL=main.css.map */
