@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap");
 html {
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -15,7 +16,8 @@ html {
           align-items: center;
   text-align: center;
   background: #f5f3ea;
-  font-size: 150%;
+  font-size: 500%;
+  font-family: "Ubuntu Mono", monospace;
 }
 
 .typewriter {
@@ -106,6 +108,72 @@ html {
 
 .sticking:hover {
   letter-spacing: -5px;
+}
+
+.sweating {
+  position: relative;
+}
+
+.sweating div {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #1d1c1b;
+}
+
+.sweating #dots1 {
+  width: 0.5em;
+  height: 0.5em;
+  bottom: 1.2em;
+}
+
+.sweating #dots2 {
+  width: 0.7em;
+  height: 0.7em;
+  top: 2em;
+  left: 5em;
+}
+
+.sweating #dots3 {
+  width: 1.1em;
+  height: 1.1em;
+  bottom: 1.5em;
+  left: 6.5em;
+}
+
+.sweating #se,
+.sweating #sa,
+.sweating #si,
+.sweating #sg,
+.sweating #dots1,
+.sweating #dots2,
+.sweating #dots3 {
+  -webkit-transition: -webkit-filter 1s ease-in-out;
+  transition: -webkit-filter 1s ease-in-out;
+  transition: filter 1s ease-in-out;
+  transition: filter 1s ease-in-out, -webkit-filter 1s ease-in-out;
+}
+
+.sweating:hover #dots1 {
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+}
+
+.sweating:hover #dots3 {
+  -webkit-filter: blur(6px);
+          filter: blur(6px);
+}
+
+.sweating:hover #si,
+.sweating:hover #dots2 {
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+}
+
+.sweating:hover #se,
+.sweating:hover #sa,
+.sweating:hover #sg {
+  -webkit-filter: blur(0.5px);
+          filter: blur(0.5px);
 }
 
 .groaning {
