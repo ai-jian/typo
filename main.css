@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Estonia&family=Ubuntu+Mono:wght@400;700&display=swap");
 html {
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -17,7 +17,7 @@ html {
   text-align: center;
   background: #f5f3ea;
   font-size: 500%;
-  font-family: "Ubuntu Mono", monospace;
+  font-family: "Estonia", cursive;
 }
 
 .typewriter {
